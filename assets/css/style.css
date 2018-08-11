@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #777777;
+    height: 100%;
+}
+
+div {
+    position: ;
+}
+
+a, a:active, a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #777777;
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 22px;
+    color: white;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    font-size: 12px;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 20px;
+}
+
+p {
+    size: 16px;
+    line-height: 22px;
+    margin-bottom: 1.2em;
+}
+
+#copyright {
+    font-size: 12px;
+    color: #999999;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 15px 0 15px 0;
+}
+
+.header {
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0;
+    overflow: auto;
+}
+
+.name {
+    background-color: #4aaaa5;
+    margin: 0;
+    padding: 20px 30px 20px 30px;
+    width: 140px;
+    float: left;
+}
+
+.nav-links {
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    width: 720px;
+    float: right;
+    text-align: right;
+}
+
+.nav-separator {
+    color: #cccccc;
+    margin-left: 18px;
+    margin-right: 15px;
+}
+
+.content-container {
+    margin: 0 auto;
+    border-top: 2px solid #cccccc;
+    background-image: url("../images/backgrounds/retina_wood_@2X.png");
+    padding-bottom: 30px;
+}
+
+.content {
+    height: 450px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+    width: 900px;
+    overflow: auto;
+}
+
+.footer {
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    padding: 10px;
+    text-align: center;
+}
+
+.portrait {
+    float: left;
+    width: 160px;
+    height: 160px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.portfolio-item {
+    position: relative;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+.portfolio-item-text {
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    width: 170px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px;
+    transform: translate(-50%, 50%);
+}
